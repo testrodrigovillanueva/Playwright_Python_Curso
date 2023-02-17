@@ -1,0 +1,60 @@
+pip1.-Instalación.
+    pip install pytest-playwright
+2.- Instalar el requerimeinto de los Navegadores
+    playwright install
+3.-Instalar Plugins 
+    Playwright test for vscode
+
+########### Notas Autowaiting #########
+https://playwright.dev/python/docs/actionability
+
+######Modos de Correr#############
+pytest --headed test_login.py
+
+pytest test_login.py --browser webkit
+
+pytest --headed Ejemplo3.py  --browser firefox
+
+pytest --slowmo 100
+
+pytest --slowmo 500  --headed Ejemplo3.py  
+
+pytest --slowmo 2000  --headed Ejemplo4.py 
+
+######Checar para el Paralelo##########
+https://playwright.dev/python/docs/test-runners#parallelism-running-multiple-tests-at-once
+
+
+###############RECORD UNO###########
+#https://playwright.dev/python/docs/codegen-intro#running-codegen
+
+playwright codegen  https://demoqa.com/
+
+
+#############Para promt #############
+https://playwright.dev/python/docs/events#addingremoving-event-listener
+
+
+############# Try - cath #############
+https://playwright.dev/python/docs/api/class-timeouterror
+
+https://playwright.dev/python/docs/api/class-page#page-event-crash
+
+
+############################
+Videos a Grabar 
+1.-Sesion2_error
+2.-Paralelos en reporte.txt
+2.-Reportes -> esta archivo pasos.txt
+3.-Build_wait
+4.-parametrisar -> conftest  -> paralelos dos
+5.-Excel
+
+
+#Video en el que voy 25
+https://www.youtube.com/watch?v=QYuqiaI6Q2Y&list=PLP5_A7hnY1Tggph0F0cRqf5iyyZuIBXYC&index=25
+
+Vi hasta el 30
+
+
+

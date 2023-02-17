@@ -1,0 +1,58 @@
+## Manejo de Paralelos 
+Url.- https://pypi.org/project/pytest-xdist/
+
+1.-  pip install pytest-xdist
+2.-pytest Paralelo_uno.py -s -v --browser-channel=chrome -n 4
+
+################ Reportes ##############
+url=https://pypi.org/project/pytest-html/
+
+1.- pip install pytest-html
+
+
+pytest -s -v Paralelo_uno.py  -n 10  --html=report.html
+pytest -s -v Reporte_uno.py  -n 10  --html=report.html
+pytest -s -v Reporte_uno.py  -n 10 --html=report.html --self-contained-html --capture=tee-sys
+pytest -s -v Paralelo_uno.py  -n 17 --html=report.html --self-contained-html --capture=tee-sys
+
+######### Reportes dos ############
+
+https://pypi.org/project/pytest-reporter-html1/
+
+pip install pytest-reporter-html1
+
+pytest  Paralelo_uno.py  -n 17 --template=html1/index.html --report=report.html
+
+pytest Builder_wait.py --template=html1/index.html --report=report.html
+
+pytest Paralelo_uno.py -n 17 --template=html1/index.html --report=report.html
+
+
+########## ejrcicion builder"""""""""""""
+
+pytest Builder_wait.py --template=html1/index.html --report=report.html
+
+Pendinete posible
+
+
+
+
+
+
+3################# Data ################
+https://rpaframework.org/libraries/browser_playwright/
+https://www.youtube.com/watch?v=oTc8MDmQdEg
+
+
+
+#####checar ###
+https://www.udemy.com/course/playwright-with-python-for-web-automation-testing/learn/lecture/28406492#content
+
+
+
+SIGUEINTES VIDEOS
+##### settings archivo"""""
+https://www.youtube.com/watch?v=wpGWEuCcnUU&list=PLGE9K4YL_ywj4F7cSA4oDptnqTmyS7hZp&index=13
+
+###### wait element""""""""
+https://www.youtube.com/watch?v=AMX3En35lsQ&list=PLP5_A7hnY1Tggph0F0cRqf5iyyZuIBXYC&index=60
